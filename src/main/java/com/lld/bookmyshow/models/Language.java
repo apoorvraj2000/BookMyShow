@@ -1,2 +1,4 @@
-package com.lld.bookmyshow.models;public enum Language {
+package com.lld.bookmyshow.models;
+
+public enum Language {
 }

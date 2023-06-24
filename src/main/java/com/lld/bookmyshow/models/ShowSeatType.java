@@ -1,2 +1,4 @@
-package com.lld.bookmyshow.models;public class ShowSeatType {
+package com.lld.bookmyshow.models;
+
+public class ShowSeatType {
 }

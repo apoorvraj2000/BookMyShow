@@ -1,2 +1,7 @@
-package com.lld.bookmyshow.models;public enum TicketStatus {
+package com.lld.bookmyshow.models;
+
+public enum TicketStatus {
+    BOOKED,
+    PROCESSING,
+    CANCELLED,
 }
