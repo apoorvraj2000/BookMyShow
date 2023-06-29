@@ -1,6 +1,7 @@
 package com.lld.bookmyshow.models;
 
 import jakarta.persistence.*;
+import java.util.Date;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,4 +15,5 @@ public class ShowSeat extends BaseModel{
     private Seat seat;
     @Enumerated(EnumType.ORDINAL)
     private ShowSeatStatus showSeatStatus;
+    private Date lockedAt;
 }
